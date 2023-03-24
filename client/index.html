@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Back End Assessment</title>
+  </head>
+  
+  <body class="container">
+    <div class ="intro">
+      <h1>Welcome to Motivation Station!</h1>
+    </div>
+  <div class ="click">
+      <h3>Click here for some feel goods!!.</h3>
+    </div>
+  <div class="button">
+      <button id="complimentButton">Get a compliment</button>
+      <button id="fortuneButton">Reveal a fortune</button>
+  </div>
+  <br>
+  <form id="skillForm">
+      <label for="skill">Skill:</label>
+      <input id="skill" type="text"/><br>
+      <label for="name">Name:</label>
+      <input id="name" type="text"/>
+      <button id="submit">Submit Skill</button>
+  </form>
+   
+  <form id="delete-form">
+      <label for="delete-name">Delete info by name:</label>
+      <input id="delete-name" type="text"/>
+      <button>Delete</button>
+  </form>
+
+  <section id ="info"></section>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+    
+  </body>
+</html>
